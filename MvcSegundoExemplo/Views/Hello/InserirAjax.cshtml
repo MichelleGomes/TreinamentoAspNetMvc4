@@ -1,0 +1,24 @@
+﻿@using MvcSegundoExemplo.Models
+@model Aluno
+
+@{
+    ViewBag.Title = "InserirAjax";
+}
+
+<h2>InserirAjax</h2>
+@using (Ajax.BeginForm(new AjaxOptions
+                
+{
+    @Html.LabelFor(d => d.Nome)
+    @Html.TextBoxFor(d => d.Nome)
+    <Br />
+    @Html.LabelFor(d => d.Idade)
+    @Html.TextBoxFor(d => d.Idade)  
+    @Html.ValidationMessageFor(d => d.Idade)  
+    <Br />
+    @Html.LabelFor(d => d.Cidade)
+    @Html.TextBoxFor(d => d.Cidade)        
+    <Br />
+    <input type="submit" value="Inserir"/>
+    @Html.ValidationSummary("Mensagens de Erro")
+} 

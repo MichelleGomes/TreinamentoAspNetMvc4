@@ -1,0 +1,25 @@
+﻿@using MvcSegundoExemplo.Models
+
+@model List<Aluno>
+
+<h2>Lista Alunos</h2>
+
+<table>
+
+        <tr>
+               <th> Nome </th>
+               <th> Idade </th>
+               <th> Cidade </th>
+        </tr>
+     
+@foreach (var result in Model)
+{
+    <tr>
+    <td> result.Nome</td>
+    <td> result.Idade</td>  
+    <td> result.Cidade</td>
+    </tr>
+}
+
+
+</table>

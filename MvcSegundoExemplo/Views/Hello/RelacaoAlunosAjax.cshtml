@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "RelacaoAlunosAjax";
+}
+
+<h2>RelacaoAlunosAjax</h2>
+
+
+@Ajax.ActionLink("Lista Aluno", "listaAlunosAjax", new AjaxOptions
+                                                  {
+                                                      InsertionMode = InsertionMode.Replace,
+                                                      UpdateTargetId = "resultado",
+                                                      LoadingElementId="progress"
+                                                  });
+                                               
+<div id="resultado"></div>
+
