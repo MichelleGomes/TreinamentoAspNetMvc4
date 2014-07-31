@@ -44,10 +44,10 @@ namespace MvcSegundoExemplo.Controllers
             return View(RetornaAlunos().ToList());  
         }
 
-        public PartialViewResult inserirAlunoAjax()
+        public PartialViewResult inserirAlunoAjax(Aluno aluno)
         {
             System.Threading.Thread.Sleep(2000);
-            return PartialView("_ResultadoAlunos", RetornaAlunos().ToList()); 
+            return PartialView("_ResultadoInsercaoAluno",aluno); 
         }
 
         public PartialViewResult ListaAlunosAjax()
