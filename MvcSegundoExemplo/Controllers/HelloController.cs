@@ -21,17 +21,32 @@ namespace MvcSegundoExemplo.Controllers
             return View();
         }
 
-        public ActionResult InserirAjax()
-        {
-            return View();
-        }
-
         [HttpPost]
         public ActionResult Inserir(Aluno aluno)
         {
             if (ModelState.IsValid)
                 return View("Resultado", aluno);
             return View(aluno);
+        }
+        public ActionResult InserirAjax()
+        {
+            return View();
+        }
+
+        public ActionResult RetornaDados()
+        {
+            ViewData.Add("curso", new Curso
+                                          {
+                                              NomeCurso = " Sistema de Informação",
+                                              TotalSemestre = 8
+                                          });
+            ViewBag.Curso = new Curso
+                                           {
+                                               NomeCurso = " Portugues",
+                                               TotalSemestre = 6
+                                           };
+
+            return View();
         }
 
         public ActionResult RelacaoAlunos()

@@ -127,6 +127,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Aluno.cs" />
+    <Compile Include="Models\Curso.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -223,6 +224,7 @@
     <Content Include="Views\Hello\_ResultadoAlunos.cshtml" />
     <Content Include="Views\Hello\InserirAjax.cshtml" />
     <Content Include="Views\Hello\_ResultadoInsercaoAluno.cshtml" />
+    <Content Include="Views\Hello\RetornaDados.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
