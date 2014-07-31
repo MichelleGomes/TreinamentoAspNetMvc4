@@ -6,8 +6,13 @@
 }
 
 <h2>InserirAjax</h2>
-@using (Ajax.BeginForm(new AjaxOptions
-                
+@using (Ajax.BeginForm("inserirAlunoAjax", new AjaxOptions 
+                                  {
+                                      InsertionMode = InsertionMode.InsertAfter,
+                                      LoadingElementId = "progress",
+                                      UpdateTargetId = "resultado"   
+                                  }))
+   
 {
     @Html.LabelFor(d => d.Nome)
     @Html.TextBoxFor(d => d.Nome)
@@ -22,3 +27,5 @@
     <input type="submit" value="Inserir"/>
     @Html.ValidationSummary("Mensagens de Erro")
 } 
+
+  <div id="resultado"></div>

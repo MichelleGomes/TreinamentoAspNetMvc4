@@ -21,9 +21,9 @@ namespace MvcSegundoExemplo.Controllers
             return View();
         }
 
-        public PartialViewResult InserirAjax()
+        public ActionResult InserirAjax()
         {
-            return PartialView("_ResultadoInsercaoAluno", RetornaAlunos());
+            return View();
         }
 
         [HttpPost]
@@ -42,6 +42,12 @@ namespace MvcSegundoExemplo.Controllers
         public ActionResult RelacaoAlunosAjax()
         {
             return View(RetornaAlunos().ToList());  
+        }
+
+        public PartialViewResult inserirAlunoAjax()
+        {
+            System.Threading.Thread.Sleep(2000);
+            return PartialView("_ResultadoAlunos", RetornaAlunos().ToList()); 
         }
 
         public PartialViewResult ListaAlunosAjax()

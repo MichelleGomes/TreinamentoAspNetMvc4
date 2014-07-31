@@ -88,3 +88,33 @@ D:\Usr\Sistemas\Curso ASPNET MVC4\Aula04-ASPNETMVC4-Modulo1\MvcPrimeiroExemplo\M
 D:\Usr\Sistemas\Curso ASPNET MVC4\Aula04-ASPNETMVC4-Modulo1\MvcPrimeiroExemplo\MvcSegundoExemplo\obj\Debug\MvcSegundoExemplo.csprojResolveAssemblyReference.cache
 D:\Usr\Sistemas\Curso ASPNET MVC4\Aula04-ASPNETMVC4-Modulo1\MvcPrimeiroExemplo\MvcSegundoExemplo\obj\Debug\MvcSegundoExemplo.dll
 D:\Usr\Sistemas\Curso ASPNET MVC4\Aula04-ASPNETMVC4-Modulo1\MvcPrimeiroExemplo\MvcSegundoExemplo\obj\Debug\MvcSegundoExemplo.pdb
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\MvcSegundoExemplo.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\MvcSegundoExemplo.pdb
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\Antlr3.Runtime.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\EntityFramework.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\Microsoft.Web.Infrastructure.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\Newtonsoft.Json.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\System.Net.Http.Formatting.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\System.Web.Http.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\System.Web.Http.WebHost.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\System.Web.Mvc.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\System.Web.Optimization.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\System.Web.Providers.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\System.Web.Razor.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\System.Web.WebPages.Deployment.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\System.Web.WebPages.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\System.Web.WebPages.Razor.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\WebGrease.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\EntityFramework.xml
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\Newtonsoft.Json.xml
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\System.Net.Http.Formatting.xml
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\System.Web.Http.xml
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\System.Web.Http.WebHost.xml
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\System.Web.Mvc.xml
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\System.Web.Razor.xml
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\System.Web.WebPages.xml
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\System.Web.WebPages.Deployment.xml
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\bin\System.Web.WebPages.Razor.xml
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\obj\Debug\MvcSegundoExemplo.csprojResolveAssemblyReference.cache
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\obj\Debug\MvcSegundoExemplo.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcSegundoExemplo\obj\Debug\MvcSegundoExemplo.pdb
