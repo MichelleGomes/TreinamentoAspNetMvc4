@@ -45,6 +45,11 @@ namespace MvcSegundoExemplo.Controllers
                                                NomeCurso = " Portugues",
                                                TotalSemestre = 6
                                            };
+            TempData["Curso"] = new Curso
+            {
+                NomeCurso = "Geografia",
+                TotalSemestre = 8
+            };
 
             return View();
         }

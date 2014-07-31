@@ -1,17 +1,27 @@
 ﻿@{
     ViewBag.Title = "RetornaDados";
     var viewDataCurso = ViewData["curso"] as MvcSegundoExemplo.Models.Curso;
+
+    var viewTempData = TempData["Curso"] as MvcSegundoExemplo.Models.Curso;
 }
 
 
 <h2>RetornaDados</h2>
 
-Recuperando Informações: 
+Recuperando Informações ViewData:<br /> 
+Nome do Curso: @viewDataCurso.NomeCurso 
+<br /> 
+Total do semestre: @viewDataCurso.TotalSemestre
+<br /> <br />
 
+Recuperando Informações ViewBag: <br /> 
 Nome do Curso: @viewDataCurso.NomeCurso 
 <br /> 
 Total do semestre: @viewDataCurso.TotalSemestre
+<br /> <br />
+
+Recuperando Informações TempData: <br />  
+Nome do Curso: @viewTempData.NomeCurso 
 <br /> 
-Nome do Curso: @viewDataCurso.NomeCurso 
+Total do semestre: @viewTempData.TotalSemestre
 <br /> 
-Total do semestre: @viewDataCurso.TotalSemestre
