@@ -1,0 +1,15 @@
+﻿@using MvcSegundoExemplo.Models
+@model Aluno
+@{
+    ViewBag.Title = "RelacaoAlunosComRedirect";
+   
+}
+    
+
+<h2>RelacaoAlunosComRedirect</h2>
+
+Recuperando Aluno ViewBag: <br />
+Aluno: @Model.Nome
+<br />
+Recuperando Aluno TempData: <br />
+@TempData["mensagem"]

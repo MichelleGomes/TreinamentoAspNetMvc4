@@ -225,6 +225,8 @@
     <Content Include="Views\Hello\InserirAjax.cshtml" />
     <Content Include="Views\Hello\_ResultadoInsercaoAluno.cshtml" />
     <Content Include="Views\Hello\RetornaDados.cshtml" />
+    <Content Include="Views\Hello\InserirComRedirect.cshtml" />
+    <Content Include="Views\Hello\RelacaoAlunosComRedirect.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

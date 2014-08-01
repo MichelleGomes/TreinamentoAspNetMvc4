@@ -12,8 +12,9 @@ namespace MvcSegundoExemplo.Controllers
 
         public ActionResult Index()
         {
-          
-            return View(RetornaAlunos());
+
+            var aluno = RetornaAlunos().First();
+            return View(aluno);
         }
 
         public ActionResult Inserir()
@@ -28,6 +29,29 @@ namespace MvcSegundoExemplo.Controllers
                 return View("Resultado", aluno);
             return View(aluno);
         }
+
+        public ActionResult InserirComRedirect()
+        {
+            return View(); 
+        }
+
+        [HttpPost]
+        public ActionResult InserirComRedirect(Aluno aluno)
+        {
+            if (ModelState.IsValid)
+            {
+                TempData["mensagem"] = "Sucesso na Operação";
+                return RedirectToAction("RelacaoAlunosComRedirect", aluno);
+            }
+            return View(aluno);
+        }
+
+        public ActionResult RelacaoAlunosComRedirect( Aluno aluno)
+        {
+            return View(aluno);
+        }
+
+
         public ActionResult InserirAjax()
         {
             return View();
@@ -61,9 +85,15 @@ namespace MvcSegundoExemplo.Controllers
 
         public ActionResult RelacaoAlunosAjax()
         {
-            return View(RetornaAlunos().ToList());  
+            return View();  
         }
 
+
+        public ActionResult ListaAlunos()
+        {
+            return View(RetornaAlunos().ToList());
+        }
+        
         public PartialViewResult inserirAlunoAjax(Aluno aluno)
         {
             System.Threading.Thread.Sleep(2000);
@@ -74,11 +104,6 @@ namespace MvcSegundoExemplo.Controllers
         {
             System.Threading.Thread.Sleep(2000);
             return PartialView ("_ResultadoAlunos", RetornaAlunos().ToList());
-        }
-
-        public ActionResult ListaAlunos()
-        {
-            return View(RetornaAlunos().ToList());
         }
 
         public IQueryable<Aluno> RetornaAlunos()
