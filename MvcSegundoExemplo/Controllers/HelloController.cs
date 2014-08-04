@@ -40,7 +40,7 @@ namespace MvcSegundoExemplo.Controllers
         {
             if (ModelState.IsValid)
             {
-                TempData["mensagem"] = "Sucesso na Operação";
+                TempData["mensagem"] = "Sucesso na Operacao";
                 return RedirectToAction("RelacaoAlunosComRedirect", aluno);
             }
             return View(aluno);

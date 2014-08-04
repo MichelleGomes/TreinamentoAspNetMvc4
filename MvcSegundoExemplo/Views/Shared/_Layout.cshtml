@@ -8,13 +8,41 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
+
+
     @RenderBody()
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/jqueryui")
     @RenderSection("scripts", required: false)
      <div id="progress">
-     <img src ="~/Content/img/red loader.gif " />
+     <img src ="~/Content/img/red_loader.gif " />
      </div>  
+
+        @if (TempData["mensagem"] != null)
+    { 
+       <script type="text/javascript" >
+           exibirMensagem("Atenção", "@TempData["mensagem"]");
+
+           //alert('@TempData["mensagem"]');
+           function exibirMensagem(titulo, mensagem) {
+               $('body').append('<div id="dialogomensagem"  titulo="mensagem"></div>');
+               $('#dialogomensagem').append(mensagem);
+               $('#dialogomensagem').dialog({
+                   titulo: titulo,
+                   buttons: {
+                       ok: function () {
+                           $(this).dialog("close");
+                           $(this).remove();
+                       }
+
+                   }
+               });
+           }
+
+       </script>
+    }
+
 </body>
 </html>
