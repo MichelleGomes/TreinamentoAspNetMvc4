@@ -25,7 +25,7 @@
        <script type="text/javascript" >
            exibirMensagem("Atenção", "@TempData["mensagem"]");
 
-           //alert('@TempData["mensagem"]');
+           alert('@TempData["mensagem"]');
            function exibirMensagem(titulo, mensagem) {
                $('body').append('<div id="dialogomensagem"  titulo="mensagem"></div>');
                $('#dialogomensagem').append(mensagem);
