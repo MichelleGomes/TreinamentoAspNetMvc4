@@ -4,7 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
+    <script src="~/Scripts/custom.js"></script>
     @Styles.Render("~/Content/css")
+     @Styles.Render("~/Content/themes/base/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
@@ -13,6 +15,7 @@
     @RenderBody()
 
     @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/custom")
     @Scripts.Render("~/bundles/jqueryval")
     @Scripts.Render("~/bundles/jqueryui")
     @RenderSection("scripts", required: false)
@@ -26,20 +29,7 @@
            exibirMensagem("Atenção", "@TempData["mensagem"]");
 
            alert('@TempData["mensagem"]');
-           function exibirMensagem(titulo, mensagem) {
-               $('body').append('<div id="dialogomensagem"  titulo="mensagem"></div>');
-               $('#dialogomensagem').append(mensagem);
-               $('#dialogomensagem').dialog({
-                   titulo: titulo,
-                   buttons: {
-                       ok: function () {
-                           $(this).dialog("close");
-                           $(this).remove();
-                       }
-
-                   }
-               });
-           }
+           
 
        </script>
     }

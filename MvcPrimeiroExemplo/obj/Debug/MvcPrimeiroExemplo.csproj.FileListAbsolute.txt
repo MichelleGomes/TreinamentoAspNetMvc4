@@ -50,3 +50,29 @@ C:\Curso ASPNET MVC4\Aula04-ASPNETMVC4-Modulo1\MvcPrimeiroExemplo\MvcPrimeiroExe
 C:\Curso ASPNET MVC4\Aula04-ASPNETMVC4-Modulo1\MvcPrimeiroExemplo\MvcPrimeiroExemplo\obj\Debug\MvcPrimeiroExemplo.csprojResolveAssemblyReference.cache
 C:\Curso ASPNET MVC4\Aula04-ASPNETMVC4-Modulo1\MvcPrimeiroExemplo\MvcPrimeiroExemplo\obj\Debug\MvcPrimeiroExemplo.dll
 C:\Curso ASPNET MVC4\Aula04-ASPNETMVC4-Modulo1\MvcPrimeiroExemplo\MvcPrimeiroExemplo\obj\Debug\MvcPrimeiroExemplo.pdb
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\bin\MvcPrimeiroExemplo.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\bin\MvcPrimeiroExemplo.pdb
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\bin\Microsoft.Web.Infrastructure.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\bin\Newtonsoft.Json.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\bin\System.Net.Http.Formatting.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\bin\System.Web.Helpers.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\bin\System.Web.Http.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\bin\System.Web.Http.WebHost.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\bin\System.Web.Mvc.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\bin\System.Web.Razor.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\bin\System.Web.WebPages.Deployment.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\bin\System.Web.WebPages.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\bin\System.Web.WebPages.Razor.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\bin\Newtonsoft.Json.xml
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\bin\System.Net.Http.Formatting.xml
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\bin\System.Web.Helpers.xml
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\bin\System.Web.Http.xml
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\bin\System.Web.Http.WebHost.xml
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\bin\System.Web.Mvc.xml
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\bin\System.Web.Razor.xml
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\bin\System.Web.WebPages.xml
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\bin\System.Web.WebPages.Deployment.xml
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\bin\System.Web.WebPages.Razor.xml
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\obj\Debug\MvcPrimeiroExemplo.csprojResolveAssemblyReference.cache
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\obj\Debug\MvcPrimeiroExemplo.dll
+D:\Usr\Sistemas\Treinamento\TreinamentoAspNetMvc4\MvcPrimeiroExemplo\obj\Debug\MvcPrimeiroExemplo.pdb
